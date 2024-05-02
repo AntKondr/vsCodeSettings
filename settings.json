@@ -1,0 +1,84 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "oneDarkPro.editorTheme": "One Dark Pro Darker",
+    "editor.fontSize": 18,
+    "editor.minimap.scale": 2,
+    "editor.renderWhitespace": "trailing",
+    "editor.stickyScroll.maxLineCount": 7,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1500,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "off",
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#aaaaaa",
+
+        "editorBracketHighlight.foreground1": "#d19a66",
+        "editorBracketHighlight.foreground2": "#f070f0",
+        "editorBracketHighlight.foreground3": "#dada00",
+        "editorBracketHighlight.foreground4": "#8080ff",
+        "editorBracketHighlight.foreground5": "#80e540",
+        "editorBracketHighlight.foreground6": "#d0d0d0",
+    },
+
+    "flake8.args": [
+        "--ignore=E501",
+    ],
+
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false,
+    },
+
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "variable": "#cccccc",
+            "property": "#cccccc",
+            "variable.readonly": "#D19A66",
+            "function.builtin": "#56b6c2",
+            "variable.decorator" : "#c0ea00",
+            "function.decorator": "#c0ea00",
+            "method.decorator": "#c0ea00",
+            "class.decorator": "#c0ea00",
+            "module.decorator": "#c0ea00",
+        },
+    },
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "storage",
+                    "keyword.control",
+                    "keyword.operator.logical",
+                    "variable.parameter.function.language.special",
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                },
+            },
+            {
+                "scope": [
+                    "punctuation.definition.decorator",
+                    "entity.name.function.decorator",
+                ],
+                "settings": {
+                    "foreground": "#c0ea00",
+                },
+            },
+        ],
+    },
+}
