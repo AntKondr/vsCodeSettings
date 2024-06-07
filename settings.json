@@ -12,12 +12,13 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1500,
     "python.languageServer": "Pylance",
-    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.typeCheckingMode": "strict",
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "security.workspace.trust.untrustedFiles": "open",
     "openapi.sortOutlines": false,
+    "redhat.telemetry.enabled": false,
 
     "workbench.colorCustomizations": {
         "tree.indentGuidesStroke": "#aaaaaa",
