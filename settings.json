@@ -7,18 +7,18 @@
     "oneDarkPro.editorTheme": "One Dark Pro Darker",
     "editor.fontSize": 17,
     "editor.minimap.scale": 2,
+    "editor.minimap.showSlider": "always",
     "editor.renderWhitespace": "trailing",
     "editor.stickyScroll.maxLineCount": 7,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1500,
     "python.languageServer": "Pylance",
-    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.typeCheckingMode": "standard",
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "security.workspace.trust.untrustedFiles": "open",
     "openapi.sortOutlines": false,
-    "redhat.telemetry.enabled": false,
 
     "workbench.colorCustomizations": {
         "tree.indentGuidesStroke": "#aaaaaa",
@@ -32,7 +32,7 @@
     },
 
     "flake8.args": [
-        "--ignore=E501",
+        "--ignore=E501,E262",
     ],
 
     "files.exclude": {
