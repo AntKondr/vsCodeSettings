@@ -19,6 +19,7 @@
     "explorer.confirmDragAndDrop": false,
     "security.workspace.trust.untrustedFiles": "open",
     "openapi.sortOutlines": false,
+    "redhat.telemetry.enabled": false,
 
     "workbench.colorCustomizations": {
         "tree.indentGuidesStroke": "#aaaaaa",
