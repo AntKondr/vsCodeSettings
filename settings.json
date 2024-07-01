@@ -49,8 +49,9 @@
         "rules": {
             "variable": "#cccccc",
             "property": "#cccccc",
-            "variable.readonly": "#D19A66",
+            "variable.readonly": "#d19a66",
             "function.builtin": "#56b6c2",
+            "class.builtin.overridden": "#e5c07b",
             "variable.decorator" : "#c0ea00",
             "function.decorator": "#c0ea00",
             "method.decorator": "#c0ea00",
