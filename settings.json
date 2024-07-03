@@ -67,7 +67,7 @@
                     "comment",
                     "storage",
                     "keyword.control",
-                    "keyword.operator.logical",
+                    "keyword.operator.logical.python",
                     "variable.parameter.function.language.special",
                 ],
                 "settings": {
