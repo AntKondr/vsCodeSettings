@@ -5,7 +5,7 @@
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
     "oneDarkPro.editorTheme": "One Dark Pro Darker",
-    "editor.fontSize": 17,
+    "editor.fontSize": 16,
     "editor.minimap.scale": 2,
     "editor.minimap.showSlider": "always",
     "editor.renderWhitespace": "trailing",
@@ -34,7 +34,7 @@
     },
 
     "flake8.args": [
-        "--ignore=E501,E262",
+        "--ignore=E501,E262,E127",
     ],
 
     "files.exclude": {
