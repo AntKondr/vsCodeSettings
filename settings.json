@@ -11,6 +11,7 @@
     "editor.renderWhitespace": "trailing",
     "editor.stickyScroll.maxLineCount": 7,
     "editor.linkedEditing": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1500,
     "python.languageServer": "Pylance",
